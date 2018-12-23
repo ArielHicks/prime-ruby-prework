@@ -1,5 +1,4 @@
 # Add  code here!
 def prime?(integer)
-  array = []
-
+  prime?.each(100) do |prime|
 end
