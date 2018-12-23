@@ -1,4 +1,4 @@
-def prime?(num)
-   Math.sqrt(num).floor.downto(2).each {|i| return false if num % i == 0}
-   true
+def is_prime?(number)
+  arr = (2..number).select {|m| number % m == 0}
+  arr.length == 1
 end
